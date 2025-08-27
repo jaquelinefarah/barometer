@@ -1,0 +1,11 @@
+pandas
+numpy
+altair
+plotly
+pydeck
+streamlit
+streamlit-datetime-range-picker
+itables
+pillow
+pyarrow
+requests
