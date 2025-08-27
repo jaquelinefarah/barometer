@@ -1,9 +1,9 @@
 pandas
 numpy
 altair
-plotly
+plotly==6.3.0
+streamlit==1.48.0
 pydeck
-streamlit
 streamlit-datetime-range-picker
 itables
 pillow
