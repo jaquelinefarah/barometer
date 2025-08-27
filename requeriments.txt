@@ -1,7 +1,7 @@
 pandas
 numpy
 altair
-plotly==6.3.0
+plotly
 streamlit==1.48.0
 pydeck
 streamlit-datetime-range-picker
