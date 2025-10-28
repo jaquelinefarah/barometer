@@ -60,33 +60,33 @@ def main():
     title_prefix = f"{section} – {period_label}"
 
     if section == "Company View":
-        st.subheader(f"🏢 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         metrics = compute_metrics(cur_df, prev_df)
         render_metric_cards(metrics, cols_per_row=4)
 
     elif section == "Short Interest":
-        st.subheader(f"📉 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         render_short_interest(cur_df)
 
     elif section == "General Profile":
-        st.subheader(f"👥 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         render_general_profile(cur_df, prev_df)
 
     elif section == "Top Buyers & Sellers":
-        st.subheader(f"🔎 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         render_top_buyers_sellers(cur_df, top_n=5)
 
     # você comentou o Weekly Trading, então pode apagar ou deixar só comentado
     # elif section == "Weekly Trading (demo)":
-    #     st.subheader(f"📊 {title_prefix}")
+    #     st.subheader(f" {title_prefix}")
     #     render_weekly_trading(cur_df, 5)
 
     elif section == "Custody":
-        st.subheader(f"📂 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         render_custody(cur_df)
 
     elif section == "Buyers & Sellers":
-        st.subheader(f"📈 {title_prefix}")
+        st.subheader(f" {title_prefix}")
         render_buyers_sellers(cur_df)
 
     else:
