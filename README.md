@@ -40,16 +40,15 @@ Plotly / Matplotlib – visual analytics
 Excel / CSV – input data structure
 
  ### Project Structure
-'''
-📦 broker-trading-barometer '''
-'''
- ┣ 📂 data '''
- ┣ 📂 pages '''
- ┣ 📜 app.py '''
- ┣ 📜 requirements.txt '''
- ┣ 📜 README.md '''
- ┗ 📜 LICENSE '''
- '''
+```
+📦 broker-trading-barometer
+ ┣ 📂 data
+ ┣ 📂 pages
+ ┣ 📜 app.py
+ ┣ 📜 requirements.txt
+ ┣ 📜 README.md
+ ┗ 📜 LICENSE
+```
 
 ## ⚠️ Disclaimer
 
